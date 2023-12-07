@@ -21,29 +21,31 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="rounded bg-white h-[160vh] w-full p-4 md:p-8 lg:p-12">
-      <header className="flex h-1/5 md:h-1/6 items-center ml-4 md:ml-10 text-black text-3xl md:text-5xl mb-5">
-        <img src="./ADSMEC_logo.png" className="h-12 w-12" alt="Logo" />
+    <div className="rounded bg-white min-h-screen w-full p-4 md:p-8">
+      <header className="flex h-1/6 md:h-1/8 items-center ml-4 md:ml-10 text-black text-xl md:text-3xl mb-5 ">
+        <img src="./ADSMEC_logo.png" className="h-8 w-8 md:h-12 md:w-12" alt="Logo" />
         <div className="text-yellow-400 ml-2 md:ml-4">Dashboards</div>
       </header>
 
-      <div className="flex flex-row bg-gray-200 p-10 rounded gap-5 justify-around ">
+      <div className="flex flex-col md:flex-row bg-gray-200 h-[80%] p-4 md:p-10 rounded gap-10 justify-around">
         <Chart
           data={data}
-          className="bg-purple-500 text-white rounded-lg p-4 h-[70%]"
+          className="bg-purple-500 text-white rounded-lg p-4 md:w-1/2"
           title="Tempo de estudo por dia"
         />
-        <div className=" flex flex-col gap-10 items-center">
-          <div className="flex h-[30%] text-center gap-5">
+
+        <div className="flex flex-col gap-10 md:gap-5 md:w-1/2">
+          <div className="flex h-[32%] md:h-full text-center gap-5">
             <Card
               colorClass="bg-black text-yellow-400"
-              widthClass="w-full md:w-64"
-              heightClass="h-[100%]"
+              widthClass="w-full"
+              heightClass="h-full"
             />
           </div>
+
           <div className="flex flex-col items-center text-center justify-center">
             <ChartComponentPie
-              className="text-white rounded-lg p-4"
+              className="text-white rounded-lg w-full md:w-3/4 lg:w-1/2"
               data={data}
             />
           </div>

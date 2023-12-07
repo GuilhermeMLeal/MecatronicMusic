@@ -40,7 +40,6 @@ const ChartComponent = ({ data }) => {
     };
   }, [chartData]);
 
-
   useEffect(() => {
     const dataMap = {};
     data.forEach((item) => {
@@ -69,11 +68,13 @@ const ChartComponent = ({ data }) => {
   }, [data]);
 
   return (
-    <div className="bg-gray-100 w-[50%] h-[30%] p-4 rounded-md shadow-md">
+    <div className="bg-gray-100 w-full md:w-[50%] h-[60%] md:h-full p-4 rounded-md shadow-md">
       <h2 className="text-xl font-semibold mb-2 text-black">
         Gráfico de Horas estudadas por dia
       </h2>
-      <canvas ref={chartRef}></canvas>
+      <div className="w-full md:h-[80%]">
+        <canvas ref={chartRef}></canvas>
+      </div>
     </div>
   );
 };

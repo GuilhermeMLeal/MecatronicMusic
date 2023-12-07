@@ -18,11 +18,11 @@ const ChartComponentPie = ({ data }) => {
   const daysNotStudied = daysInMonth - daysStudied;
   
   // Defina cores diferentes para os valores 4 e 9
-  const backgroundColors = ["rgba(255, 165, 0 , 0.5)", "rgba(0, 0, 0, 0.7)"];
+  const backgroundColors = ["rgba(255, 165, 0 , 0.5)", "rgba(0, 0, 0, 0.9)"];
   const borderColors = ["rgba(255, 165, 0 ,1)", "rgba(0, 0, 0, 1)"];
   const hoverBackgroundColors = [
     "rgba(255, 165, 0 ,0.8)",
-    "rgba(0, 0, 0, 0.9)",
+    "rgba(0, 0, 0, 1)",
   ];
   const hoverBorderColors = ["rgba(255, 165, 0 ,1)", "rgba(0, 0, 0, 1)"];
 
@@ -72,7 +72,7 @@ const ChartComponentPie = ({ data }) => {
   }, [data]);
 
   return (
-    <div className="bg-gray-100 w-[50%] h-[100%] p-4 rounded-md shadow-md">
+    <div className="bg-gray-100 w-[70%] h-[100%] p-2 rounded shadow-md">
       <h2 className="text-xl font-semibold mb-2 text-black">
         Gráfico de dias estudados no mês
       </h2>
