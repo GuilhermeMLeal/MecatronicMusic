@@ -2,7 +2,10 @@
 Projetos dos Alunos de ADS juntamente aos alunos de Mecatrônica - Máteria IOT
 ### A API associada ao estudo musical calculará o tempo total dedicado ao aprendizado, armazenando essas informações de forma organizada. A aplicação utilizará esses dados para gerar um gráfico semanal, oferecendo uma visão abrangente do comprometimento do usuário ao longo do tempo. Adicionalmente, será possível visualizar um gráfico diário que detalha o tempo específico dedicado a cada sessão de estudo.
 
-
+# ☁️ Url's para teste/uso
+- https://squad05.pythonanywhere.com/ (Pythonanywhere)
+- https://squad05.pythonanywhere.com/espinfo/ (End'Point para JSON)
+- https://musicfront-web.vercel.app (Vercel FRONTEND, conectado a API)
 # 📚 Código e API
 
 ## 🔧 Instruções - Projeto Local
