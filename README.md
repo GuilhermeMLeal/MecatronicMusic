@@ -8,10 +8,7 @@ Projetos dos Alunos de ADS juntamente aos alunos de Mecatrônica - Máteria IOT
 - https://musicfront-web.vercel.app (Vercel FRONTEND, conectado a API)
 # 📚 Código e API
 
-## 🔧 Instruções - Projetos hospedados
 
-- Front-end: https://musicfront-web.vercel.app/
--  Back-end: https://squad05.pythonanywhere.com/
 
 ## 🔧 Instruções - Projeto Local
 #### Para uso da API juntamente com o Front rodando localmente, teremos que iniciar uma série de processos a partir deste repositorio
