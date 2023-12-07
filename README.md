@@ -1,6 +1,6 @@
 # 🎷 MecatronicMusic
 Projetos dos Alunos de ADS juntamente aos alunos de Mecatrônica - Máteria IOT
-### O usuário pretende iniciar uma sessão de estudo musical com uma duração específica. Este exemplo mostra como utilizar a API para iniciar uma sessão de estudo com o tempo desejado. Quando o usuário conclui sua sessão de estudo, ele pode interrompê-la para registrar o tempo dedicado.
+### A API associada ao estudo musical calculará o tempo total dedicado ao aprendizado, armazenando essas informações de forma organizada. A aplicação utilizará esses dados para gerar um gráfico semanal, oferecendo uma visão abrangente do comprometimento do usuário ao longo do tempo. Adicionalmente, será possível visualizar um gráfico diário que detalha o tempo específico dedicado a cada sessão de estudo.
 
 
 # 📚 Código e API
