@@ -42,7 +42,7 @@ Esta aplicação Django é um exemplo de integração com a MusicAPI, uma API qu
 
 O servidor estará disponível em `http://127.0.0.1:8000/`.
 
-## Uso
+## Uso da API
 
 ### Endpoints da MusicAPI
 
