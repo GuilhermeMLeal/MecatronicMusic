@@ -13,7 +13,7 @@ const Home = () => {
 
   const fetchData = useCallback(async () => {
     try {
-      const response = await axios.get("http://192.168.1.101:8000/espinfo/");
+      const response = await axios.get("https://squad05.pythonanywhere.com/espinfo/");
       setData(response.data);
     } catch (error) {
       console.error(error);
