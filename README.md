@@ -88,7 +88,7 @@ A documentação completa da API está disponível [aqui](https://www.notion.so/
 ```
 - Json Music
 {
-    "tempo_de_estudo": 0.5 (Especificando 50 minutos de estudo)
+    "tempo_de_estudo": 1.5 (Especificando 1 segundo e meio de estudo)
 }
 ```
 
