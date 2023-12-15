@@ -6,6 +6,9 @@ Projetos dos Alunos de ADS juntamente aos alunos de Mecatrônica - Máteria IOT
 - https://squad05.pythonanywhere.com/ (Pythonanywhere)
 - https://squad05.pythonanywhere.com/espinfo/ (End'Point para JSON)
 - https://musicfront-web.vercel.app (Vercel FRONTEND, conectado a API)
+
+# 📼 Vídeo do Projeto Integrador
+- https://drive.google.com/file/d/1_bj-WoN5YoNhfIXOlT0q3ZKhx3Pk9zzU/view?usp=sharing
 # 📚 Código e API
 
 
@@ -126,7 +129,7 @@ A documentação completa da API está disponível [aqui](https://www.notion.so/
 
    ```
    Diego: FRONT-WEB, Integração Back e Front, FIGMA, Documentação FRONT
-   Gabriel Henrique: FRONT-WEB, Documentação(Notion), Readme, 1° Protótipo
+   Gabriel Henrique: FRONT-WEB, Documentação(Notion), Readme, 1° Protótipo (Fast)
    Guilherme Martins: ARTIGO, DJANGO-API, Reformulação API, Documentação, Colection Postman.
    Matheus: FRONT-MOBILE, FIGMA, Reformulação Mobile.
    Vicenzo: FRONT-MOBILE, PYTHONANYWHERE, Reformulação Mobile e testes.
